@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Color System based on brand guidelines */
+  --color-brand-primary: #0043c8;
+  --color-brand-primary-container: #0057ff;
+  --color-brand-secondary: #cd4800;
+  --color-brand-secondary-container: #cd4800;
+  --color-brand-accent-green: #10b981;
+  --color-brand-accent-red: #ef4444;
+}
+
+/* Custom transitions and scrollbars */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.active-pill-shadow {
+  box-shadow: 0 4px 14px 0 rgba(0, 87, 255, 0.15);
+}
+
+.card-gradient-overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 100%);
+}

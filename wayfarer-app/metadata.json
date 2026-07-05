@@ -1,0 +1,6 @@
+{
+  "name": "Wayfarer",
+  "description": "Your smart, location-aware travel companion. Estimate transit fares, discover curated local spots, avoid tourist scams, and customize your travel vibe with real-time AI insights.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
