@@ -1,33 +1,20 @@
-# Build with AI: Workshop Prototypes 🤖🚀
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-This repository contains the projects I built during the **Build with AI: Builder Day – Jabalpur**, an intensive hands-on workshop organized by **Growth Square** and **codecrax**. 
+# Run and deploy your AI Studio app
 
-Instead of using AI as a simple assistant, I leveraged **Google's integrated AI stack** as an active development partner to transition from raw concepts to two working applications rapidly.
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/d7654e1e-655f-4c38-94fb-a666695606c3
 
-## 🛠️ The Projects
+## Run Locally
 
-### 1. 🌌 Space Shooter Game
-A fast-paced retro arcade game prototype built entirely through conversational iteration.
-* **AI Generation:** Built the core game logic, collision handling, and scoring systems using natural language prompts inside **Google AI Studio**.
-* **UI/UX:** Designed and tweaked the visual assets and gameplay interface using **Stitch**.
+**Prerequisites:**  Node.js
 
-### 2. 🗺️ Wayfarer App
-A practical application prototype designed to streamline user journeys and workflows.
-* **AI Generation:** Leveraged structured Context Engineering to define the application's foundational logic rules.
-* **UI/UX:** Used **Stitch** for rapid front-end prototyping, converting feature requirements into a clean interface.
 
----
-
-## ⚙️ Tech Stack & AI Workflows Used
-
-* **Google AI Studio:** Utilized for rapid prototyping, using advanced Prompt Engineering and Context Engineering paradigms to write clean functional code.
-* **Google Stitch:** Applied for AI-assisted UI creation, removing frontend friction.
-* **Google Antigravity Architecture:** Explored to understand how to move past the quick prototype phase and orchestrate autonomous agents to build highly scalable applications.
-* **Backend:** Python
-
----
-
-## 🤝 Acknowledgments
-A huge thank you to **Mr. Shivam S.** for leading the technical sessions, and the volunteer teams at **codecrax** and **Growth Square** for setting up this brilliant learning environment.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
