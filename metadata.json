@@ -1,6 +1,0 @@
-{
-  "name": "2D Space Shooter",
-  "description": "A self-contained, highly polished 2D Space Shooter mini-game featuring particle effects, smooth controls, and progressive difficulty.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
